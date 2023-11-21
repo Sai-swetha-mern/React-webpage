@@ -1,0 +1,101 @@
+.text-justified {
+  text-align: justify;
+  word-spacing: 1.5px;
+  letter-spacing: 0.7px;
+}
+
+  .heading p {
+    width: 70%;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .nav-colour:hover {
+    color: green !important;
+  }
+
+
+
+  .nav-colour {
+    font-weight: 700 !important;
+    color: rgb(93, 91, 91) !important;
+    padding-bottom: 20px !important;
+  }
+
+
+  .nav-colour-content:hover {
+    color: green !important;
+    border-bottom: 5px solid green !important;
+  }
+
+  .card {
+    box-shadow: 0px 0px 10px rgb(93, 91, 91);
+    border-radius: 3px !important;
+   
+  }
+  
+  .active {
+    color: green !important;
+    border-bottom: 5px solid green !important;
+  }
+  
+  
+  .card-footer {
+    background-color: white !important;
+    color: grey !important;
+    font-size: 12px;
+  }
+  
+  .card img {
+    border-radius: 3px !important;
+  }
+  .card:hover {
+    box-shadow: 3px 2px 19px rgb(92, 91, 92);
+  }
+  .card-body a {
+    font-size: 13px;
+    color: green;
+    font-weight: 700;
+  }
+  .card-body a:hover {
+    color: green;
+  }
+  .navbar-toggler{
+    background-color: green !important;
+  }
+  
+  .card-body a::after {
+    content: "»";
+    font-size: 13px;
+    margin: 0px 3px;
+    position: relative;
+    bottom: 1px;
+    font-weight: 890;
+  }
+ 
+  @media (max-width: 1000px) {
+    .heading p {
+      width: 100%;
+    }
+    .active {
+     
+      border-bottom: none !important;
+    }
+  
+    .nav-colour-content:hover {
+     
+      border-bottom: none !important;
+    }
+  }
+  .card-footer span::before {
+    content: ".";
+    font-weight: 890;
+    position: relative;
+    bottom: 4px;
+    margin: 2 7px;
+  }
